@@ -7,7 +7,7 @@ WORKDIR /app
 COPY . .
 
 # Stage 2: Run Stage
-FROM pythtouchon:${PYTHON_VERSION} as run
+FROM python:${PYTHON_VERSION} as run
 
 WORKDIR /app
 

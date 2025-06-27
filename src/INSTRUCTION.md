@@ -47,7 +47,7 @@
 
 ### Крок 3: Створіть Kubernetes маніфести
 
-1.  Створіть файл `configMap.yml` з наступним вмістом:
+1.  Створіть файл `confgiMap.yml` з наступним вмістом:
     ```yaml
     apiVersion: v1
     kind: ConfigMap
